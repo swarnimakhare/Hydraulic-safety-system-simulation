@@ -10,6 +10,8 @@ The system simulates random failures in components and lines, applies isolation 
 
 I use Monte Carlo simulations to run many failure scenarios and compute metrics like actuator functionality, pressure distribution, redundancy, and a composite safety score.
 
+![image alt](https://github.com/swarnimakhare/Hydraulic-safety-system-simulation/blob/acb4c95368dc9bd12b92fc68dbb88e398a30079d/Screenshot%202026-04-20%20211825.png)
+
 Additionally, I implemented a genetic algorithm that improves the network design by adding connections to increase resilience under failure conditions.
 
 Overall, the goal is to compare different hydraulic architectures and identify designs that are more robust and fault-tolerant.
