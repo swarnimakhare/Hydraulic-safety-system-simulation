@@ -1,2 +1,13 @@
 # Hydraulic-safety-system-simulation
 This project is a simulation tool that analyzes the safety and resilience of aircraft hydraulic systems.
+
+I modeled the hydraulic network as a graph using Python, where components like pumps, valves, and actuators are nodes, and hydraulic lines are edges.
+
+The system simulates random failures in components and lines, applies isolation logic to prevent failure propagation, and then evaluates how well pressure is maintained across the system.
+
+I use Monte Carlo simulations to run many failure scenarios and compute metrics like actuator functionality, pressure distribution, redundancy, and a composite safety score.
+
+Additionally, I implemented a genetic algorithm that improves the network design by adding connections to increase resilience under failure conditions.
+
+Overall, the goal is to compare different hydraulic architectures and identify designs that are more robust and fault-tolerant.
+
